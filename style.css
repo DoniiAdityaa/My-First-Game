@@ -1,0 +1,35 @@
+#app{
+    display: flex;
+    justify-content: center;
+}
+
+#arena{
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    border: 1px solid black;
+}
+
+#object{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 50%;
+    left: 50%;
+    background-image: url(bejir.png);
+    background-size: contain;
+    border: 1px solid black;
+}
+
+button{
+    width: 100%;
+    border: 1px solid purple;
+}
+td{
+    width: 50px;
+}
+#controller{
+    position: absolute;
+    top: 80%;
+
+}
